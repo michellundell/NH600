@@ -15,6 +15,7 @@
       vpc_subnet_id: subnet-5ca1ab1e
       instance_type: t2.micro
       key_name: "a-ssh-key"
+      region: eu-north-1
       security_group: default
       volumes:
         - device_name: /dev/sda1
