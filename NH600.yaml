@@ -1,5 +1,5 @@
 ---
   - name: NH600 Playbook
     hosts: all
-    command: systemctl status ssh
+      command: systemctl status ssh
     ignore_errors: yes
