@@ -1,5 +1,8 @@
 ---
-  - name: NH600 Playbook
-    hosts: all
-      command: systemctl status ssh
-    ignore_errors: yes
+# This playbook runs a basic DF command.
+
+- hosts: all
+
+  tasks:
+  - name: find disk space available.
+    command: df -hPT
