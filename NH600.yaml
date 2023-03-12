@@ -1,3 +1,4 @@
+---
 - name: NH600 Playbook
   hosts: all
   command: systemctl status ssh
